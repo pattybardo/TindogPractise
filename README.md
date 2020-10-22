@@ -1,2 +1,1 @@
-# TindogPractise
-Coursework Bootstrap and CSS practise
+TinDog Starting Files

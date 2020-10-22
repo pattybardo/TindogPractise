@@ -1,0 +1,194 @@
+body {
+  font-family: Montserrat;
+}
+
+#title {
+  background-color: #ff4c68;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #FFFFFF
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+p {
+  color: #8f8f8f
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 10px 0;
+}
+
+.brand {
+  font-family: Ubuntu;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.nav-item {
+  padding: 0 12px;
+}
+
+.nav-link {
+  font-size: 1.25rem;
+  font-family: Montserrat;
+  font-weight: 100;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* Download Buttons */
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+.row {
+  padding-top: 5%;
+}
+
+.blurb {
+  padding-top: 5%;
+}
+
+.iphone {
+  position: relative;
+  margin-bottom: -200px;
+  margin-top: -50px;
+  transform: scale(0.7, 0.7) rotate(20deg);
+}
+
+/* Features */
+.feature-icon {
+  color: #ef8172;
+  width: 150%;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+.feature-col {
+  text-align: center;
+  padding: 0 3% 0 3%;
+}
+
+.feature-text {
+  color: #8f8f8f
+}
+
+.feature-row {
+  padding: 10% 8% 6% 8%;
+  z-index: 100;
+  background-color: #FFFFFF;
+  position: relative;
+  margin-top: -80px;
+}
+
+/* Testimonal */
+#testimonials {
+  background-color: #ef8172;
+
+  text-align: center;
+}
+
+.testimonial-img{
+  width: 15%;
+  border-radius: 100%;
+  margin: 3% 2%;
+}
+
+.testimonial-person{
+  color: #FFFFFF;
+}
+
+.testimonial-text{
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  color: #FFFFFF;
+}
+
+
+.carousel-item{
+  padding: 5% 25%;
+}
+
+/* Press */
+#press {
+  background-color: #ef8172;
+  padding: 0% 10% 5%;
+  text-align: center;
+
+}
+
+.press-logo{
+  width: 20%;
+  padding: 0 3%;
+}
+
+/* Pricing */
+#pricing {
+  padding: 90px;
+}
+
+.pricing-deck{
+  text-align: center;
+}
+
+.sign-up-btn{
+  width: 100%;
+}
+
+.pricing-col{
+  padding: 3% 2%;
+}
+
+@media (max-width: 992px){
+  #title {
+    text-align: center;
+  }
+
+  .iphone {
+    position: static;
+    transform: scale(0.7, 0.7) rotate(0);
+    margin-bottom: -50px;
+  }
+}
+
+/* Call To Action */
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 3% 30% 5%;
+}
+
+.callAction{
+  color: #FFFFFF;
+  padding-bottom: 10%;
+}
+
+#footer {
+  text-align: center;
+  padding: 5% 0 2% 0;
+}
+
+.icons {
+  margin: 5px;
+}
